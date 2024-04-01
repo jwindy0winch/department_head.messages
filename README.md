@@ -3,25 +3,22 @@
 Overview:
 
 Program Requirements:
-Make a list of 5 ‘Department Head’ usernames, including an admin username. Create a loop through the list of usernames that prints:
-○	A special greeting for the admin
-○	Generic greeting for the remaining 4 usernames
-Defined Scope:
-●	Create a specialized greeting for the admin, upon login to the company’s intranet website
-●	Create a generic greeting for the remaining 4 department heads, upon login to the company’s intranet website. 
-Intended Usage:
-To create a printed greeting for each Department Head that will appear after they have logged into the company's intranet website. 
+Make a list of 5 ‘Department Head’ usernames, including an admin username. Create a loop through the list of usernames that prints: A special greeting for the admin and a generic greeting for the remaining 4 usernames.
+
+Defined Scope: Create a specialized greeting for the admin, upon login to the company’s intranet website. Create a generic greeting for the remaining 4 department heads, upon login to the company’s intranet website. 
+
+Intended Usage: To create a printed greeting for each Department Head that will appear after they have logged into the company's intranet website. 
 
 Processing Logic:
 
 Control of Program:
-First, the Python program defines a list of 5 ‘department_heads’. Next the program enters a loop in the ‘department_heads’ list. After entering the loop, an ‘if-else’ statement is used to check to see if a ‘department_head’ is equal to ‘Admin’. If there is a ‘department_head’ that is equal to ‘Admin’ it prints a specific message for the Admin. If the ‘department_head’ is NOT equal to ‘Admin’ a generic printed message is printed for the remaining ‘deparment_heads’. 
-PROGRAM ENDS.
+First, the Python program defines a list of 5 ‘department_heads’. Next, the program enters a loop in the ‘department_heads’ list. After entering the loop, an ‘if-else’ statement is used to check to see if a ‘department_head’ is equal to ‘Admin’. If there is a ‘department_head’ that is equal to ‘Admin’ it prints a specific message for the Admin. If the ‘department_head’ is NOT equal to ‘Admin’ a generic printed message is printed for the remaining ‘deparment_heads’.       PROGRAM ENDS.
 
 Data Flow of Program:
-●	INPUT: ‘department_heads’ list
-●	OUTPUT: Special Greeting for Admin. Generalized greeting for remaining 4 department heads
-(PDL) Process Design Language
+INPUT: ‘department_heads’ list
+OUTPUT: Special Greeting for Admin. Generalized greeting for remaining 4 department heads
+
+(PDL) Process Design Language:
 ○	Initialize a List Iteration of Department Heads
 ○	Print a message for each Department Head, including a specifically unique message for the Admin
 
@@ -34,7 +31,7 @@ Pseudo Code:
 ●	Print a general greeting message for all other Department Heads
 
 Flow Chart:
-START
+START.
 ●	Define “Department Heads” list
 ●	For each “Department Head” in “Department heads”: 
 ○	If “Department Head” is ‘Admin’: 
